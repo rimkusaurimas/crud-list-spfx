@@ -9,7 +9,7 @@
 
 Solution|Author(s)
 --------|---------
-folder name | Aurimas, UAB Sekasoft
+webparts/crud | Aurimas, UAB Sekasoft
 
 ## Disclaimer
 
