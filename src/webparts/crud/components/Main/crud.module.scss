@@ -1,0 +1,65 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+@import "../../styles/base";
+
+table,
+th,
+td {
+  border: 1px solid $color-primary;
+  border-collapse: collapse;
+}
+
+.crud {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 40rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  background: $ms-color-themeDark;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  min-width: 32rem;
+
+  &Title {
+    color: $color-primary;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  &Table {
+    padding: 0;
+    margin: auto;
+    width: 100%;
+
+    &RowItem {
+      padding-left: $spacing-s;
+      color: $color-primary;
+      text-align: center;
+      padding: $spacing-m;
+      max-width: 16rem;
+      word-break: break-word;
+    }
+
+    &Button {
+      background: none;
+      color: $color-primary;
+      border: none;
+      cursor: pointer;
+
+      &:active {
+        color: $color-secondary;
+      }
+
+      &Icon {
+        height: 1.2rem;
+        width: 1.2rem;
+      }
+    }
+  }
+
+  &ButtonAddNew {
+    margin-top: $spacing-l !important;
+    color: $color-primary !important;
+    border: 0.1rem solid $color-primary !important;
+  }
+}
