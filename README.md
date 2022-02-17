@@ -24,4 +24,3 @@ webparts/crud | Aurimas, UAB Sekasoft
 - in the command-line run:
   - **npm install**
   - **gulp serve**
-  - 
